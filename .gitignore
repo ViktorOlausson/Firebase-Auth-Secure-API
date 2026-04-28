@@ -10,7 +10,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+node_modules/
 dist
 dist-ssr
 *.local
@@ -57,7 +57,7 @@ coverage.*
 build/Release
 
 # Dependency directory
-node_modules
+node_modules/
 
 # Optional npm cache directory
 .npm
@@ -75,7 +75,7 @@ slask.*
 *.yml
 *.env
 *.bkp
-node_modules
+node_modules/
 # Keep environment variables out of version control
 .env
 
