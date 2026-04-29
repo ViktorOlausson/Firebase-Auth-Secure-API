@@ -50,6 +50,23 @@ button {
   transition: border-color 0.25s;
 }
 
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.login-form input,
+.login-form button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-form input {
+  padding: 0.6em 1.2em;
+  font: inherit;
+}
+
 button:hover {
   border-color: #646cff;
 }
